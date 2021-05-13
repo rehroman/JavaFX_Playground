@@ -12,7 +12,7 @@
       <Button layoutX="534.0" layoutY="188.0" mnemonicParsing="false" onAction="#right" text="RIGHT" />
       <Button layoutX="273.0" layoutY="361.0" mnemonicParsing="false" onAction="#down" text="DOWN" />
       <Circle fx:id="myCircle" fill="DODGERBLUE" layoutX="301.0" layoutY="201.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
-      <Label fx:id="titleLabel" layoutX="1.0" layoutY="19.0" prefHeight="17.0" prefWidth="600.0" text="Ballgame" />
-      <Label fx:id="textLabel" layoutX="31.0" layoutY="51.0" text="Press the Buttons!" />
+      <Label fx:id="titleLabel" layoutX="1.0" layoutY="19.0" prefHeight="17.0" prefWidth="252.0" text="Ballgame" textAlignment="RIGHT" textOverrun="CLIP" />
+      <Label fx:id="textLabel" layoutX="31.0" layoutY="51.0" text="Press the Buttons!!" />
    </children>
 </AnchorPane>
