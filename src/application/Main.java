@@ -19,8 +19,12 @@ public class Main extends Application {
 		try { 
 		Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
 		Scene scene = new Scene(root);
+		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm()); //if having only one scene otherwise see below
+		String css = this.getClass().getResource("application.css").toExternalForm();
+		scene.getStylesheets().add(css); //several scene now possible
 		primaryStage.setScene(scene);
 		primaryStage.show();
+		
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
