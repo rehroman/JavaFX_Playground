@@ -3,12 +3,15 @@
 }
 
 .label{
-	-fx-font-size: 20;
-	-fx-font-family: "Lucida Console";
+	-fx-font-size: 50;
 	-fx-text-fill: "white";
 	-fx-alignment: center;
 }
 
 #titleLabel{
+	-fx-font-size: 35;
+}
+
+#loginLabel{
 	-fx-font-size: 35;
 }
